@@ -1,2 +1,63 @@
-@import "reset";
+.page {
+	background-color: #030103;
+}
 
+.wrapper {
+	margin: auto;
+	margin-top: 50px;
+	background-image: url('/images/calculator.png');
+	height: 330px;
+	width: 238px;
+	border-radius: 20px;
+	box-shadow:  0 0 200px #e0dbdb;
+}
+
+.calculator {
+	padding: 15px;
+}
+
+.calc-display {
+	background-color: transparent;
+	height: 30px;
+	width: 208px;
+	border: none;
+	font-size: 20px;
+	text-align: end;
+	&:focus {
+		outline: none;
+	}
+}
+
+.btn-top {
+	display: flex;
+	justify-content: space-between;
+	margin: 33px 5px 4px;
+}
+
+.tin-tack {
+	height: 23px;
+	width: 42px;
+	border: none;
+	border-radius: 3px;
+	background-color: transparent;
+	&:focus {
+		outline: none;
+	}
+}
+
+.btn {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+}
+
+.btn-nmb {
+	height: 42px;
+	width: 42px;
+	border: none;
+	border-radius: 3px;
+	background-color: transparent;
+	&:focus {
+		outline: none;
+	}
+}
