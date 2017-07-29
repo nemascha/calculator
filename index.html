@@ -9,41 +9,41 @@
 	<div class="wrapper">
 	<form class="calculator">
 
-		<input class="calc-display" id="display" type="text">
+		<input class="calc-display" id="display" type="text" pattern="[0-9]{10}">
 
-		<div class="btn-top">
-			<button type="button" class="tin-tack"></button>
-			<button type="button" class="tin-tack"></button>
-			<button type="button" class="tin-tack"></button>
-			<button type="button" class="tin-tack"></button>			
+		<div class="btn-top-row">
+			<button type="button" class="tin-tack" id="bradical"></button>
+			<button type="button" class="tin-tack" id="bsquare"></button>
+			<button type="button" class="tin-tack" id="bplusminus"></button>
+			<button type="button" class="tin-tack" id="bclear"></button>			
 		</div><!-- end btn-top -->
 
-		<div class="btn">
-			<button type="button" class="btn-nmb"></button>
-			<button type="button" class="btn-nmb"></button>
-			<button type="button" class="btn-nmb"></button>
-			<button type="button" class="btn-nmb"></button>
+		<div class="btn-row">
+			<button type="button" class="btn-nmb main-button" id="b7" data-type="number" data-value="7"></button>
+			<button type="button" class="btn-nmb main-button" id="b8" data-type="number" data-value="8"></button>
+			<button type="button" class="btn-nmb main-button" id="b9" data-type="number" data-value="9"></button>
+			<button type="button" class="btn-sign main-button" id="bdiv" data-type="divide"></button>
 		</div>
 
-		<div class="btn">
-			<button type="button" class="btn-nmb"></button>
-			<button type="button" class="btn-nmb"></button>
-			<button type="button" class="btn-nmb"></button>
-			<button type="button" class="btn-nmb"></button>
+		<div class="btn-row">
+			<button type="button" class="btn-nmb main-button" id="b4" data-type="number" data-value="4"></button>
+			<button type="button" class="btn-nmb main-button" id="b5" data-type="number" data-value="5"></button>
+			<button type="button" class="btn-nmb main-button" id="b6" data-type="number" data-value="6"></button>
+			<button type="button" class="btn-sign main-button" id="bmult" data-type="multiply"></button>
 		</div>
 
-		<div class="btn">
-			<button type="button" class="btn-nmb"></button>
-			<button type="button" class="btn-nmb"></button>
-			<button type="button" class="btn-nmb"></button>
-			<button type="button" class="btn-nmb"></button>
+		<div class="btn-row">
+			<button type="button" class="btn-nmb main-button" id="b1" data-type="number" data-value="1"></button>
+			<button type="button" class="btn-nmb main-button" id="b2" data-type="number" data-value="2"></button>
+			<button type="button" class="btn-nmb main-button" id="b3" data-type="number" data-value="3"></button>
+			<button type="button" class="btn-sign main-button" id="bmin" data-type="minus"></button>
 		</div>
 
-		<div class="btn">
-			<button type="button" class="btn-nmb"></button>
-			<button type="button" class="btn-nmb"></button>
-			<button type="button" class="btn-nmb"></button>
-			<button type="button" class="btn-nmb"></button>
+		<div class="btn-row">
+			<button type="button" class="btn-nmb main-button" id="b0" data-type="number" data-value="0"></button>
+			<button type="button" class="btn-nmb main-button" id="bdot" data-type="number" data-value="."></button>
+			<button type="button" class="btn-sign main-button" id="bpl" data-type="plus"></button>
+			<button type="button" class="btn-sign main-button" id="bequal" data-type="equal"></button>
 		</div><!-- end btn -->
 
 	</form>

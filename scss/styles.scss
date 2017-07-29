@@ -18,8 +18,9 @@
 
 .calc-display {
 	background-color: transparent;
+	padding-left: 3px;
 	height: 30px;
-	width: 208px;
+	width: 200px;
 	border: none;
 	font-size: 20px;
 	text-align: end;
@@ -28,7 +29,7 @@
 	}
 }
 
-.btn-top {
+.btn-top-row {
 	display: flex;
 	justify-content: space-between;
 	margin: 33px 5px 4px;
@@ -45,7 +46,7 @@
 	}
 }
 
-.btn {
+.btn-row {
 	display: flex;
 	justify-content: space-between;
 	padding: 5px;
@@ -60,4 +61,15 @@
 	&:focus {
 		outline: none;
 	}
+}
+
+.btn-sign {
+	height: 42px;
+	width: 42px;
+	border: none;
+	border-radius: 3px;
+	background-color: transparent;
+	&:focus {
+		outline: none;
+	}	
 }
